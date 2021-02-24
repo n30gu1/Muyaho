@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2D664DA25E6A00D00D8D760 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D664D925E6A00D00D8D760 /* AppDelegate.m */; };
+		B2D664DD25E6A00D00D8D760 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D664DC25E6A00D00D8D760 /* SceneDelegate.m */; };
+		B2D664E025E6A00D00D8D760 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D664DF25E6A00D00D8D760 /* ViewController.m */; };
+		B2D664E325E6A00D00D8D760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D664E125E6A00D00D8D760 /* Main.storyboard */; };
+		B2D664E625E6A00D00D8D760 /* Muyaho.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2D664E425E6A00D00D8D760 /* Muyaho.xcdatamodeld */; };
+		B2D664E825E6A00D00D8D760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D664E725E6A00D00D8D760 /* Assets.xcassets */; };
+		B2D664EB25E6A00D00D8D760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D664E925E6A00D00D8D760 /* LaunchScreen.storyboard */; };
+		B2D664EE25E6A00D00D8D760 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D664ED25E6A00D00D8D760 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2D664D525E6A00D00D8D760 /* Muyaho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muyaho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D664D825E6A00D00D8D760 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2D664D925E6A00D00D8D760 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2D664DB25E6A00D00D8D760 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B2D664DC25E6A00D00D8D760 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B2D664DE25E6A00D00D8D760 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2D664DF25E6A00D00D8D760 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2D664E225E6A00D00D8D760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2D664E525E6A00D00D8D760 /* Muyaho.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Muyaho.xcdatamodel; sourceTree = "<group>"; };
+		B2D664E725E6A00D00D8D760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2D664EA25E6A00D00D8D760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2D664EC25E6A00D00D8D760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2D664ED25E6A00D00D8D760 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2D664D225E6A00D00D8D760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2D664CC25E6A00C00D8D760 = {
+			isa = PBXGroup;
+			children = (
+				B2D664D725E6A00D00D8D760 /* Muyaho */,
+				B2D664D625E6A00D00D8D760 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2D664D625E6A00D00D8D760 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2D664D525E6A00D00D8D760 /* Muyaho.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2D664D725E6A00D00D8D760 /* Muyaho */ = {
+			isa = PBXGroup;
+			children = (
+				B2D664D825E6A00D00D8D760 /* AppDelegate.h */,
+				B2D664D925E6A00D00D8D760 /* AppDelegate.m */,
+				B2D664DB25E6A00D00D8D760 /* SceneDelegate.h */,
+				B2D664DC25E6A00D00D8D760 /* SceneDelegate.m */,
+				B2D664DE25E6A00D00D8D760 /* ViewController.h */,
+				B2D664DF25E6A00D00D8D760 /* ViewController.m */,
+				B2D664E125E6A00D00D8D760 /* Main.storyboard */,
+				B2D664E725E6A00D00D8D760 /* Assets.xcassets */,
+				B2D664E925E6A00D00D8D760 /* LaunchScreen.storyboard */,
+				B2D664EC25E6A00D00D8D760 /* Info.plist */,
+				B2D664ED25E6A00D00D8D760 /* main.m */,
+				B2D664E425E6A00D00D8D760 /* Muyaho.xcdatamodeld */,
+			);
+			path = Muyaho;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2D664D425E6A00D00D8D760 /* Muyaho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2D664F125E6A00D00D8D760 /* Build configuration list for PBXNativeTarget "Muyaho" */;
+			buildPhases = (
+				B2D664D125E6A00D00D8D760 /* Sources */,
+				B2D664D225E6A00D00D8D760 /* Frameworks */,
+				B2D664D325E6A00D00D8D760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Muyaho;
+			productName = Muyaho;
+			productReference = B2D664D525E6A00D00D8D760 /* Muyaho.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2D664CD25E6A00C00D8D760 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B2D664D425E6A00D00D8D760 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B2D664D025E6A00C00D8D760 /* Build configuration list for PBXProject "Muyaho" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2D664CC25E6A00C00D8D760;
+			productRefGroup = B2D664D625E6A00D00D8D760 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2D664D425E6A00D00D8D760 /* Muyaho */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2D664D325E6A00D00D8D760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D664EB25E6A00D00D8D760 /* LaunchScreen.storyboard in Resources */,
+				B2D664E825E6A00D00D8D760 /* Assets.xcassets in Resources */,
+				B2D664E325E6A00D00D8D760 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2D664D125E6A00D00D8D760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D664EE25E6A00D00D8D760 /* main.m in Sources */,
+				B2D664E025E6A00D00D8D760 /* ViewController.m in Sources */,
+				B2D664DA25E6A00D00D8D760 /* AppDelegate.m in Sources */,
+				B2D664E625E6A00D00D8D760 /* Muyaho.xcdatamodeld in Sources */,
+				B2D664DD25E6A00D00D8D760 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2D664E125E6A00D00D8D760 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2D664E225E6A00D00D8D760 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2D664E925E6A00D00D8D760 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2D664EA25E6A00D00D8D760 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2D664EF25E6A00D00D8D760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2D664F025E6A00D00D8D760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2D664F225E6A00D00D8D760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98882K9P37;
+				INFOPLIST_FILE = Muyaho/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.n30gu1.Muyaho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2D664F325E6A00D00D8D760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98882K9P37;
+				INFOPLIST_FILE = Muyaho/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.n30gu1.Muyaho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2D664D025E6A00C00D8D760 /* Build configuration list for PBXProject "Muyaho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D664EF25E6A00D00D8D760 /* Debug */,
+				B2D664F025E6A00D00D8D760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2D664F125E6A00D00D8D760 /* Build configuration list for PBXNativeTarget "Muyaho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D664F225E6A00D00D8D760 /* Debug */,
+				B2D664F325E6A00D00D8D760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2D664E425E6A00D00D8D760 /* Muyaho.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2D664E525E6A00D00D8D760 /* Muyaho.xcdatamodel */,
+			);
+			currentVersion = B2D664E525E6A00D00D8D760 /* Muyaho.xcdatamodel */;
+			path = Muyaho.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B2D664CD25E6A00C00D8D760 /* Project object */;
+}
