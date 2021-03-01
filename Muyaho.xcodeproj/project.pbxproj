@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B21FB86225E773C7002A3040 /* muyaho_sound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B21FB86125E773C7002A3040 /* muyaho_sound.m4a */; };
 		B2D664DA25E6A00D00D8D760 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D664D925E6A00D00D8D760 /* AppDelegate.m */; };
 		B2D664DD25E6A00D00D8D760 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D664DC25E6A00D00D8D760 /* SceneDelegate.m */; };
 		B2D664E025E6A00D00D8D760 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D664DF25E6A00D00D8D760 /* ViewController.m */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B21FB86125E773C7002A3040 /* muyaho_sound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = muyaho_sound.m4a; sourceTree = "<group>"; };
 		B2D664D525E6A00D00D8D760 /* Muyaho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muyaho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D664D825E6A00D00D8D760 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B2D664D925E6A00D00D8D760 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		B2D664D725E6A00D00D8D760 /* Muyaho */ = {
 			isa = PBXGroup;
 			children = (
+				B2D664F625E6A2DF00D8D760 /* Resources */,
 				B2D664D825E6A00D00D8D760 /* AppDelegate.h */,
 				B2D664D925E6A00D00D8D760 /* AppDelegate.m */,
 				B2D664DB25E6A00D00D8D760 /* SceneDelegate.h */,
@@ -77,6 +80,14 @@
 				B2D664E425E6A00D00D8D760 /* Muyaho.xcdatamodeld */,
 			);
 			path = Muyaho;
+			sourceTree = "<group>";
+		};
+		B2D664F625E6A2DF00D8D760 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B21FB86125E773C7002A3040 /* muyaho_sound.m4a */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 				B2D664EB25E6A00D00D8D760 /* LaunchScreen.storyboard in Resources */,
 				B2D664E825E6A00D00D8D760 /* Assets.xcassets in Resources */,
 				B2D664E325E6A00D00D8D760 /* Main.storyboard in Resources */,
+				B21FB86225E773C7002A3040 /* muyaho_sound.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98882K9P37;
 				INFOPLIST_FILE = Muyaho/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98882K9P37;
 				INFOPLIST_FILE = Muyaho/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
